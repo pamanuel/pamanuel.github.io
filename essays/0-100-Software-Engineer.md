@@ -14,7 +14,10 @@ labels:
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 *"Always be a kid - Kobe Bryant"*
+
 To be a successful Software Engineer you have to be a kid. Always be curious, always want to find the answer, and always ask questions. 
+
+<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
 ## Find A Programming Language! JavaScript?
   I am still relatively new to javascript whereas in the past I've mainly worked with python, C, and C++. My first impression of javascript is that it is a loosely written programming language. When completing the basic javascript freecodecamp problems I noticed how loosely written variables are where data types such as int, char, float, etc don’t need to be explicitly written. However, they use the keywords var, let, and const to declare different types of variables with different purposes. For example, const is used for variables that should never be changed, and let is used for variables that can be changed. Another thing that was new to me was functions and how they can be assigned to variables and treated as variables. Overall, javascript allows for a different style of programming and offers features that other programming languages don't have.
