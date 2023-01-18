@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/manoanow.png
 title: "ManoaNow"
 date: 2022
 published: false
@@ -13,27 +13,11 @@ summary: "ManoaNow is a hub for students looking for navigation, deals, and oppo
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/manoanow.png" class="img-thumbnail" >
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+ManoaNow is known to be a service both students and companies. ManoaNow has implemented a campus map where students are able to use to navigate throughout campus similar to a GPS where it gives directions. Whether the use is finding food spots, hidden buildings, or even the nearest restrooms ManoaNow provides the location. Along with that, ManoaNow provides news updates on the website current events that is happening throughout campus. Future events can also be found on a calendar that ManoaNow has incorporated with the app where presents upcoming events throughout campus. Finally, the other benefits of ManoaNow is that you are able to find new job opportunities, UH deals, and find routs of the UH Manoa shuttle bus. Not only students, but companies are able to benefit from ManoaNow where they are able to advertise their buisiness on the ManoaNow website or app.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+I started working for ManoaNow in September 2022 after searching for an entry level software engineering position on-campus. For this project, I was in charge of the ManoaNow app where I wrote in javascript using the React Native framework. I communicated back and forth with our Software Engineer lead and the design team to produce a sufficient app that satisfies both the design team and software team's standards. Specifically, I worked on the job opportunties feature on the app where I had to pull information from firebase that comes through the admin portal and present it in an attractive and readable fashion so that the consumer could adequately gather the information that they needed. 
 
 You can learn more about [ManoaNow](https://www.manoanow.org/) or download the ManoaNow app on the App Store or Google Play
