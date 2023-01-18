@@ -4,7 +4,7 @@ type: project
 image: img/manoanow.png
 title: "ManoaNow"
 date: 2022
-published: false
+published: true
 labels:
   - Javascript
   - React Native
