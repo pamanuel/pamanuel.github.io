@@ -17,6 +17,8 @@ labels:
 
 To be a successful Software Engineer you have to be a kid. Always be curious, always want to find the answer, and always ask questions. 
 
+
+
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript.png">
 
 ## Find A Programming Language! JavaScript?
