@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Animal Farm"
 date: 2022
-published: false
+published: true
 labels:
   - Object Oriented Programming
   - C
