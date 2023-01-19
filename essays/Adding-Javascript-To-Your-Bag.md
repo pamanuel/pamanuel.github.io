@@ -34,6 +34,6 @@ One of the things that we do to exercise our athletic software engineering learn
 
 I find the WOD very useful because it forces students to prepare for something hard to prepare for on their own. From personal experience, I see that there is only a hand full of students that prepare for the coding interview. Most students would look at a problem and end up searching for the answer rather than working through the problem and taking their time with it. Then come coding interview time, students tend to blank out and forget everything they "practiced" for. The WODs test our ability to solve problems.
 
-With this, I am excited to tackle the coding interview in the futre and showcase the Javascript that has been added to my bag because by the end of the semester we should be prepared for it with all the practice.
+With this, I am excited to tackle the coding interview in the future and showcase the Javascript that has been added to my bag because, by the end of the semester, we should be prepared for it with all the practice.
 
 
