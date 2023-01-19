@@ -14,7 +14,7 @@ summary: "Animal Farm is an abundance of small class labs where students were ta
 
 <div class="text-center p-4">
   <img width="200px" src="../img/animal_farm_full.jpeg" class="img-thumbnail" >
-  <img width="200px" src="../img/class-hierarchy.jpeg" class="img-thumbnail" >
+  <img width="200px" src="../img/class-hierarchy.png" class="img-thumbnail" >
 </div>
 The Animal Farm labs were given in the EE205 Object-Oriented Programming course given at the University of Hawaii at Manoa, taught by Professor Mark Nelson. These labs were written in C and C++ and the intentions of the labs were to create a database where with each lab we are introduced to and asked to implement new aspects of Object-Oriented Programming. Initially, it started off with storing our objects and their properties in an array, then structs, then eventually linked lists. When our objects were stored in the linked list we were tasked with adding a more intriguing hierarchy, hence Animal Farm. Evidently, our database was structured so that our database would contain a class hierarchy of animals. The core of this database has implemented CRUD (Create, Read, Update, Delete) where these objects were nodes and those operations could be applied to those nodes.
 
