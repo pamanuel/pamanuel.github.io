@@ -18,4 +18,5 @@ During high school all that was on my mind was being valedictorian and basketbal
 ## The Switch 
 After my freshman year of college, I still had no idea what I was going into with a mechanical engineer major. Through this time, I started to question is this where I want to be. After reaching out to a lot of my friends that I kept in touch with after high school, they mostly went into a computer science, electrical engineering, or computer engineering degree. I then searched up who makes the most money and which degree is the most rewarding, it turned out to be computer engineering. The rest is history.
 
-## The Why
+## The Goal
+Once declaring as a computer engineer, I figured that I should set myself up for success by joining different clubs and projects so that I could find the type of work that I would be wanting to do right after college. With this, I joined VIP Team RoSE which is very robotics heavy. Though I don't have a strong interest in robotics, I realized that the people in RoSE  are very well-driven aspiring software engineers and I believe that surrounding yourself with other well-driven people is needed to succeed. 
