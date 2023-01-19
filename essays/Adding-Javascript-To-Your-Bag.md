@@ -25,6 +25,7 @@ My first impression of javascript is that it is a loosely written programming la
 
 <img width="400px" class="rounded float-start pe-4" src="../img/Banner_The-Anatomy-of-A-Skilled-Software-Engineer.png">
 ## Get In Your Bag And Practice!
+
 Many students have their methods of learning. Some students like sitting in lectures and taking notes. Some students like finding external resources or videos to learn from. However, there is another way of learning and it's called Athletic Software Engineering. Before this class, I have never heard of Athletic Software Engineering. From my understanding, Athletic Software Engineering is a very mentally challenging way of learning where we are constantly putting in repetition and practice to apply what we've learned. Though very time-consuming, it is very rewarding as it expects you to put in more hours into work than what you are comfortable with. 
 
 With this higher time expectancy, we are constantly being shown new experiences and tools that are more real-life applications such as programming, development environment, and project management. Like with sports, there are different types of drills that you do to get better at a specific skill. Similarly, we are applying this to programming where we are constantly being tested so that we constantly improve, and through exhaustion, we are bound to learn.
