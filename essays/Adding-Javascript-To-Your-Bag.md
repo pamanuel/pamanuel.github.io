@@ -13,7 +13,7 @@ labels:
 
 <img width="400px" class="rounded float-start pe-4" src="../img/Banner_The-Anatomy-of-A-Skilled-Software-Engineer.png">
 
-*"Always be a kid - Kobe Bryant"*
+*"Always be a kid" - Kobe Bryant*
 
 To be a successful Software Engineer you have to be a kid. Always be curious, always want to find the answer, and always ask questions. Adding to your bag in basketball slang means adding a new move to your dribble set. In this case, we are adding Javascript to our technical skillset.
 
