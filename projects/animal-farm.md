@@ -6,7 +6,7 @@ title: "Animal Farm"
 date: 2022
 published: true
 labels:
-  - Object Oriented Programming
+  - Object-Oriented Programming
   - C
   - C++
 summary: "Animal Farm is an abundance of small class labs where students were tasked with created a database. Each lab implemented a new feature that taught a different aspect of object-oriented programming."
@@ -14,12 +14,13 @@ summary: "Animal Farm is an abundance of small class labs where students were ta
 
 <div class="text-center p-4">
   <img width="200px" src="../img/animal_farm_full.jpeg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/animal_farm_full.jpeg" class="img-thumbnail" >
 </div>
-The Animal Farm labs were given int the EE205 Object-Oriented Programming course given at the University of Hawaii at Manoa, taught by Professor Mark Nelson. The intensions of the lab is to create a database where with each lab we are introduced and asked to implement new aspects of Object Oriented Programming. Initially it started off with storing our objects and it's properties in an array, then structs, then evidently linked lists. When our objects were stored in linked list we were tasked with adding classes. Evidently, our data base was structured so that our database
+The Animal Farm labs were given in the EE205 Object-Oriented Programming course given at the University of Hawaii at Manoa, taught by Professor Mark Nelson. These labs were written in C and C++ and the intensions of the labs were to create a database where with each lab we are introduced to and asked to implement new aspects of Object-Oriented Programming. Initially, it started off with storing our objects and their properties in an array, then structs, then eventually linked lists. When our objects were stored in the linked list we were tasked with adding a more intriguing hierarchy, hence Animal Farm. Evidently, our database was structured so that our database would contain a class hierarchy of animals. The core of this database has implemented CRUD (Create, Read, Update, Delete) where these objects were nodes and those operations could be applied to those nodes.
 
-Here is some code that comes from the header file of my Animal Class where you will see implemtnations of  getters and setters, constructors, inheritence, etc:
+These abundances of labs were very difficult, especially with having very little experience in coding, because of the size of the labs and new content that I was handed. Though, I learned the most about programming through the hardships of this lab. The main takeaways I got out of this project are class hierarchy, inheritance, pointers, singly and doubly linked-list, and that there are no classes in C.
+
+Here is some code that comes from the header file of my Animal Class where you will see implementations of  getters and setters, constructors, inheritance, etc:
 
 ```cpp
 class Animal: public Node{
