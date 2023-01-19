@@ -15,7 +15,7 @@ labels:
 
 *"Always be a kid - Kobe Bryant"*
 
-To be a successful Software Engineer you have to be a kid. Always be curious, always want to find the answer, and always ask questions. One of these days, maybe the coding interview, you will be asked to get in your bag and showcase your skills as a software engineer.
+To be a successful Software Engineer you have to be a kid. Always be curious, always want to find the answer, and always ask questions. Adding to your bag in basketball slang means adding a new move to your dribble set. In this case, we are adding Javascript to our technical skillset.
 
 
 ## A Javascript Interpretation
@@ -23,7 +23,7 @@ I am still relatively new to Javascript whereas in the past I've mainly worked w
 
 My first impression of javascript is that it is a loosely written programming language meaning, you can get away with some specificity within the code. When completing the basic Javascript freecodecamp problems I came to realize how different each programming language is. For the most part, each programming language can of course solve the same problem but each programming language have its way of telling a story. Specifically, from what I understand Javascript allows for a lot of shortcuts and freedom in coding which can be a good and bad thing. Overall, Javascript has its way of telling a story by offering features that other programming languages don't have.
 
-<img width="400px" class="rounded float-start pe-4" src="../img/Banner_The-Anatomy-of-A-Skilled-Software-Engineer.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/basketball-drills.jpg">
 ## Get In Your Bag And Practice!
 
 Many students have their methods of learning. Some students like sitting in lectures and taking notes. Some students like finding external resources or videos to learn from. However, there is another way of learning and it's called Athletic Software Engineering. Before this class, I have never heard of Athletic Software Engineering. From my understanding, Athletic Software Engineering is a very mentally challenging way of learning where we are constantly putting in repetition and practice to apply what we've learned. Though very time-consuming, it is very rewarding as it expects you to put in more hours into work than what you are comfortable with. 
