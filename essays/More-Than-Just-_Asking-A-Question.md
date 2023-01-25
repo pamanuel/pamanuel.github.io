@@ -20,8 +20,6 @@ Prior to asking a question, prepare on the type of question that you want to ask
 When you start to understand the difference between smart and stupid questions the more you are likely to find an answer. Relating to software engineering, when reading a smart question you will be able to abstract the question and understand other engineers thought process and vice versa. Skipping the middle stage of not knowing how to ask a question will increase efficiency and productivity, as you will be able to find answers quicker and comprehend the questions faster. Thus, it is essential for software engineers to understand how to ask and read smart questions. 
 
 ## To-do and Not To-do featuring StackOverflow
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-
-
+[Here](https://stackoverflow.com/questions/5509543/how-do-i-properly-force-a-git-push) is a great answer of a smart question. On that forum post on StackOverflow, the user was very percise in what he wasking. The user had the main 
+ 
+[Here](https://stackoverflow.com/questions/39287901/how-to-show-my-own-robot-model-in-ruiz/42213718#42213718) is an example of a not well written stupid question.
