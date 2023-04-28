@@ -21,6 +21,6 @@ With this in mind, a perfect example of design patterns was given by Professor P
 
 Recently I have been more exposed to design patterns through the ICS314 final project. Using the Bowfolios template, we commonly saw the same format when it came to creating a collection, creating meteor methods, and reimplementing components. For example, when creating our ClubsCollection and EventsCollection, those javascript files essentially had the same format, where we created an EventsCollection class, with instantiating a new Mongo Collection named EventsCollection, a schema representing the properties of the class, and a user and admin publication name with an Events instantiation at the end. Furthermore, these collection files tell a good story by keeping it consistent. To end off, each of the collections tells its own version of the same story with its own personality, which is how code should be written, as a story. 
 
-This list of different collections can be found at 
+This list of different collections can be found [Here](https://github.com/mongo-mongoers/club-hub/tree/main/app/imports/api)
 
 
