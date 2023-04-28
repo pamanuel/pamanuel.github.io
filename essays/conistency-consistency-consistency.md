@@ -11,7 +11,7 @@ labels:
   - Design Patterns
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/Banner_The-Anatomy-of-A-Skilled-Software-Engineer.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/consistency.jpg">
 
 ## Consistentcy Consistentcy Consistency 
 In my good old young boy days, I played basketball for a team where every team member had a nickname. My nickname was Mr. Consistent. Now why was I nicknamed Mr. Consistent? It was because I was always reliable when the team needed me and I was easy to play with. This is very similar to the purpose of design patterns. Through software engineering, reviewing and reading reliable and readable code is essential. Thus having consistent design patterns will help make the code more reusable, readable, and consistent consistent consistent.
