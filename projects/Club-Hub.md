@@ -9,20 +9,15 @@ labels:
   - Web Development
   - React
   - Meteor
-summary: "Club Hub is a place where students are able to view all of the clubs around the University Of Hawaii campus and stay up to date with club events by bookmarking their favorite clubs."
+summary: "Club Hub is a place where students are able to view all of the clubs around the University Of Hawaii campus and stay up to date with club events by bookmarking their favorite clubs. Students are also able to post their own clubs as well as publish their own events reguarding their club."
 ---
 
+
+For this project, the team practiced agile software development to complete our goal of a fully functioning club hub website. In order for our team to succeed, I implemented the dynamic population of the club lists page, and events page, as well as the full functionality of the manage your events page. For the club lists page, with each club in the club collection, I populated a card that read through some of the properties of each club. The events page also collected data from the ProfileClubs collection which is a collection made by each user that populates from the clubs that the user bookmarks. To make this function, I filtered out all of the events by the club name property given from the ProfileClubs collection. With this, I populated the page with event cards consisting of properties of the events. Finally, I created a manage your events page where you are able to see a full events page consisting of events that the user logged in owns. For example, the user, acmmanoa@hawaii.edu, is able to manage all of the events regarding acmmanoa@hawaii.edu. 
+
 <div class="text-center p-4">
-  <img width="200px" src="../img/clubhub-hp.jpeg" class="img-thumbnail" >
-</div>
-<div class="text-center p-4">
-  <img width="200px" src="../img/clubhub-b.jpeg" class="img-thumbnail" >
+  <img width="200px" src="../img/clubhub-hp.png" class="img-thumbnail" >
+  <img width="200px" src="../img/clubhub-b.png" class="img-thumbnail" >
   <img width="200px" src="../img/clubhub-e.png" class="img-thumbnail" >
   <img width="200px" src="../img/clubhub-mye.png" class="img-thumbnail" >
 </div>
-The Animal Farm labs were given in the EE205 Object-Oriented Programming course given at the University of Hawaii at Manoa, taught by Professor Mark Nelson. These labs were written in C and C++ and the intentions of the labs were to create a database where with each lab we are introduced to and asked to implement new aspects of Object-Oriented Programming. Initially, it started off with storing our objects and their properties in an array, then structs, then eventually linked lists. When our objects were stored in the linked list we were tasked with adding a more intriguing hierarchy, hence Animal Farm. Evidently, our database was structured so that our database would contain a class hierarchy of animals. The core of this database has implemented CRUD (Create, Read, Update, Delete) where these objects were nodes and those operations could be applied to those nodes.
-
-These abundances of labs were very difficult, especially with having very little experience in coding, because of the size of the labs and new content that I was handed. Though, I learned the most about programming through the hardships of this lab. The main takeaways I got out of this project are class hierarchy, inheritance, pointers, singly and doubly linked-list, and that there are no classes in C.
-
-Here is some code that comes from the header file of my Animal Class where you will see implementations of  getters and setters, constructors, inheritance, etc:
-
