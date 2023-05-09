@@ -59,3 +59,4 @@ protected:///protected method///
     void setGender(const Gender newGender);
 };
 ```
+The GitHub Repository for this project can be found at [https://github.com/pamanuel/ee205-Animal-Farm](https://github.com/pamanuel/ee205-Animal-Farm).
