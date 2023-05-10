@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/manoalogo.jpg
 title: "Club Hub"
-date: 2022
+date: 2023
 published: true
 labels:
   - Web Development
