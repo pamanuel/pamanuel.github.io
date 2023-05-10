@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Animal Farm | Patrick Angelo Manuel | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/pamanuel.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Patrick Angelo Manuel | Professional Portfolio">
+    <meta property="og:url" content="https://pamanuel.github.io/projects/animal-farm.html">
+    <meta property="og:title" content="Animal Farm | Patrick Angelo Manuel | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/pamanuel.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Animal Farm | Patrick Angelo Manuel | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Patrick Angelo Manuel</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Animal Farm</h1>
+ <div class="text-center p-4">
+  <img width="200px" src="../img/animal_farm_full.jpeg" class="img-thumbnail" />
+  <img width="200px" src="../img/class-hierarchy.png" class="img-thumbnail" />
+</div>
+<p>The Animal Farm labs were given in the EE205 Object-Oriented Programming course given at the University of Hawaii at Manoa, taught by Professor Mark Nelson. These labs were written in C and C++ and the intentions of the labs were to create a database where with each lab we are introduced to and asked to implement new aspects of Object-Oriented Programming. Initially, it started off with storing our objects and their properties in an array, then structs, then eventually linked lists. When our objects were stored in the linked list we were tasked with adding a more intriguing hierarchy, hence Animal Farm. Evidently, our database was structured so that our database would contain a class hierarchy of animals. The core of this database has implemented CRUD (Create, Read, Update, Delete) where these objects were nodes and those operations could be applied to those nodes.</p>
+
+<p>These abundances of labs were very difficult, especially with having very little experience in coding, because of the size of the labs and new content that I was handed. Though, I learned the most about programming through the hardships of this lab. The main takeaways I got out of this project are class hierarchy, inheritance, pointers, singly and doubly linked-list, and that there are no classes in C.</p>
+
+<p>Here is some code that comes from the header file of my Animal Class where you will see implementations of  getters and setters, constructors, inheritance, etc:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Animal</span><span class="o">:</span> <span class="k">public</span> <span class="n">Node</span><span class="p">{</span>
+<span class="nl">public:</span>
+    <span class="k">static</span> <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">KINGDOM_NAME</span><span class="p">;</span>
+<span class="nl">private:</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">species</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">classification</span><span class="p">;</span>
+    <span class="n">Gender</span> <span class="n">gender</span> <span class="o">=</span> <span class="n">Gender</span><span class="o">::</span><span class="n">UNKNOWN_GENDER</span><span class="p">;</span>
+    <span class="n">Weight</span> <span class="n">weight</span><span class="p">;</span>
+<span class="nl">public:</span><span class="c1">///constructors///</span>
+    <span class="n">Animal</span><span class="p">(</span><span class="k">const</span> <span class="n">Weight</span><span class="o">::</span><span class="n">t_weight</span> <span class="n">newMaxWeight</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">newClassification</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">newSpecies</span><span class="p">);</span>
+
+    <span class="n">Animal</span><span class="p">(</span><span class="k">const</span> <span class="n">Gender</span> <span class="n">newGender</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">Weight</span><span class="o">::</span><span class="n">t_weight</span> <span class="n">newWeight</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">Weight</span><span class="o">::</span><span class="n">t_weight</span> <span class="n">newMaxWeight</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">newClassification</span><span class="p">,</span>
+           <span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">newSpecies</span><span class="p">);</span>
+<span class="nl">public:</span><span class="c1">///getters and setters///</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">getKingdom</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">getClassification</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">getSpecies</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="n">Gender</span> <span class="n">getGender</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="n">Weight</span><span class="o">::</span><span class="n">t_weight</span> <span class="n">getWeight</span><span class="p">()</span><span class="k">const</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="kt">void</span> <span class="n">setWeight</span><span class="p">(</span><span class="k">const</span> <span class="n">Weight</span><span class="o">::</span><span class="n">t_weight</span> <span class="n">newWeight</span><span class="p">);</span>
+<span class="nl">public:</span><span class="c1">///public methods///</span>
+    <span class="k">virtual</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">speak</span><span class="p">()</span><span class="k">const</span> <span class="k">noexcept</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="kt">void</span> <span class="n">dump</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span> <span class="k">override</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="n">validate</span><span class="p">()</span> <span class="k">const</span> <span class="k">noexcept</span> <span class="k">override</span><span class="p">;</span>
+    <span class="c1">////static public methods///</span>
+    <span class="k">static</span> <span class="kt">bool</span> <span class="n">validateClassification</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">checkClassification</span><span class="p">)</span> <span class="k">noexcept</span><span class="p">;</span>
+    <span class="k">static</span> <span class="kt">bool</span> <span class="n">validateSpecies</span><span class="p">(</span><span class="k">const</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="o">&amp;</span><span class="n">checkSpecies</span><span class="p">)</span> <span class="k">noexcept</span><span class="p">;</span>
+<span class="nl">protected:</span><span class="c1">///protected method///</span>
+    <span class="kt">void</span> <span class="n">setGender</span><span class="p">(</span><span class="k">const</span> <span class="n">Gender</span> <span class="n">newGender</span><span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div></div>
+<p>The GitHub Repository for this project can be found at <a href="https://github.com/pamanuel/ee205-Animal-Farm">https://github.com/pamanuel/ee205-Animal-Farm</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

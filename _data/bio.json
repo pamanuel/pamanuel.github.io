@@ -1,0 +1,76 @@
+{
+  "basics": {
+    "name": "Patrick Angelo Manuel",
+    "label": "Student",
+    "picture": "https://github.com/pamanuel.png",
+    "email": "pamanuel@hawaii.edu",
+    "phone": "808-393-0694",
+    "website": "https://pamanuel.github.io",
+    "summary": "I am currently University of Hawaii at Manoa student pursuing a Bachelor's in Computer Engineering. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96797", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "pamanuel", "url": "http://github.com/pamanuel" },
+      { "network": "linkedin", "username": "patrick-angelo-manuel", "url": "https://www.linkedin.com/in/patrick-angelo-manuel/" },
+    ]
+  },
+  "interests": [
+    { "name": "Software Development" },
+    { "name": "Robotics" },
+    { "name": "Basketball" },
+    { "name": "Body Building" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Javascript", "Python", "SystemVerilog" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Engineering (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Manoa Now",
+      "position": "App/Web Developer",
+      "website": "",
+      "startDate": "2022-09-15",
+      "endDate": "Present",
+      "summary": "A media platform that keeps UH Manoa students up to date with news and provide on-campus necessities.",
+      "highlights": [
+        "Maintain and update an app that helps students navigate through campus and find opportunities for deals and jobs"
+      ]
+    },
+  ],
+  "volunteer": [
+    {
+      "organization": "VIP Team RoSE",
+      "website": "https://www.teamrose.org/",
+      "position": "Software Developer",
+      "startDate": "2022-12-26",
+      "endDate": "Present",
+      "summary": "Arm Software Lead",
+      "highlights": [
+        "Implemented the Arm Controls for a 5DOF Arm using ROS",
+      ]
+    }
+  ],
+  "awards": [
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
