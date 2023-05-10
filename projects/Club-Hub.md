@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/manoalogo.png
+image: img/manoalogo.jpg
 title: "Club Hub"
 date: 2022
 published: true
