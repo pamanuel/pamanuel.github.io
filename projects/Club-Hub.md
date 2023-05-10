@@ -26,3 +26,4 @@ For this project, I was paired with Maxwell Pauly, Danny Luu, Liliana Royer, and
 During my time completing this project, I found that project management is very important. I believe that the use of agile software development allowed my team to succeed. However, we were able to see a side effect of agile software development which was exhaustion. Though my team was very ambitious with tasks, where we met most of the M2 Milestone requirements during the M1 Milestone, towards the end completing tasks in a timely matter became difficult. Many of the tasks were completed a few days before the deadline. In the end, my team was successful in creating a fully functional web application and it was a great experience to work in a fast pace environment. 
 
 The Project Page can be found at [https://mongo-mongoers.github.io](https://mongo-mongoers.github.io/). 
+The GitHub Repository can be found [here](https://github.com/mongo-mongoers/club-hub).
