@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/manoanow.png
 title: "ManoaNow"
-date: 2022
+date: 2022-Current 
 published: true
 labels:
   - Javascript
